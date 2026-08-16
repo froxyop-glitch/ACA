@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            header.style.background = 'rgba(0, 0, 0, 0.95)';
-            header.style.boxShadow = '0 2px 10px rgba(0, 255, 65, 0.2)';
+            header.style.background = 'rgba(255, 255, 255, 0.99)';
+            header.style.boxShadow = '0 2px 8px rgba(45, 90, 61, 0.15)';
         } else {
-            header.style.background = 'rgba(5, 5, 5, 0.9)';
+            header.style.background = 'rgba(255, 255, 255, 0.98)';
             header.style.boxShadow = 'none';
         }
     });
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.style.top = '80px';
                 navLinks.style.left = '0';
                 navLinks.style.width = '100%';
-                navLinks.style.background = 'rgba(5, 5, 5, 0.98)';
+                navLinks.style.background = 'rgba(255, 255, 255, 0.99)';
                 navLinks.style.padding = '20px';
                 navLinks.style.borderBottom = '1px solid var(--primary-green)';
             }
